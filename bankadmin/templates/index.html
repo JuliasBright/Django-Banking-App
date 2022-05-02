@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank account CSV</title>
+</head>
+
+
+{% block body %}
+<body>
+<div class="container">
+    <h5 class="card-text">User Name: {{ user.name }}</h5>
+</div>
+    {% if accounts or transactions %}
+    <a href="{% url 'adminView:csv' user.id %}" class="btn btn-primary">Download CSV</a>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,8 @@
+__pycache__
+exe
+dl
+.vscode
+
+#file that should be included must
+!migrations
+!env
