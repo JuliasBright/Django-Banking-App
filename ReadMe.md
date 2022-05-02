@@ -65,3 +65,6 @@ To run the whole project test cases typr the command
 ### we specify that we want to use DELETE by using the -X option:
 - curl -X DELETE http://127.0.0.1:8000/rest_apis/bankusers/test/5445
 
+### Time Taken to Read,Reasearch and Complete the project 
+- Total Time 7hr
+
